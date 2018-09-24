@@ -1,0 +1,118 @@
+html {
+  font-family: 'Exo', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: 'Exo', sans-serif;
+  background-color: #ff6d6d;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 100;
+}
+
+section {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.one {
+  position: relative;
+  text-align: center;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/main_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.title-text {
+  max-width: 750px;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15%;
+  text-transform: capitalize;
+}
+.cta {
+  padding: 15px;
+  min-width: 200px;
+}
+.one .cta {
+  margin-top: 100px;
+}
+.highlight {
+  text-transform: uppercase;
+  color: #ff6d6d;
+}
+.title {
+  font-size: 40px;
+  font-weight: 500;
+}
+.description {
+  font-size: 18px;
+  line-height: 30px;
+}
+.two .left {
+  padding: 14%;
+}
+.right img {
+  width: 100%;
+}
+.minimal-section {
+  text-align: center;
+  padding: 60px 0;
+}
+.features {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 80%;
+}
+
+.features h2 {
+  font-weight: 500;
+}
+.features p {
+  max-width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+  opacity: 0.7;
+}
+.minimal-section.two {
+  margin-top: 200px;
+}
+.minimal-section.two .right {
+  text-align: left;
+}
+.minimal-section.two .right .content {
+  max-width: 60%;
+  padding-top: 50px;
+}
