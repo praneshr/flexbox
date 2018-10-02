@@ -22,11 +22,28 @@ button {
   font-size: 16px;
   text-transform: uppercase;
   color: #FFF;
-  font-weight: 100;
+  font-weight: 400;
+}
+
+input {
+  padding: 15px 20px;
+  border: 1px solid #959DB2;
+  background-color: #474B78;
+  color: #ffffff;
+  width: 100%;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 4px;
 }
 
 section {
   height: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
 }
 
 .row {
@@ -115,4 +132,99 @@ section {
 .minimal-section.two .right .content {
   max-width: 60%;
   padding-top: 50px;
+}
+.section-three {
+  text-align: center;
+  padding: 100px;
+  background-image: url('/img/group4.jpg');
+  color: #FFF;
+}
+.section-three .container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.section-three .info {
+  padding: 0 70px;
+}
+.section-three .info h4 {
+  color: #ff6d6d;
+}
+.section-three .info p {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 28px;
+}
+.section-four {
+  text-align: center;
+  padding-top: 100px;
+}
+.section-four .description {
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 40px;
+  opacity: 0.5;
+  max-width: 700px;
+}
+.img-container {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 1000px;
+}
+.img-container img {
+  width: 100%;
+}
+.section-five {
+  padding: 80px 0;
+  background-color: #333969;
+  color: #ffffff;
+  text-align: center;
+}
+.form-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.form-container .column {
+  padding: 15px;
+}
+.form-container button {
+  width: 100%;
+  padding: 15px 20px;
+}
+.dummy-text {
+  margin-top: 80px;
+  opacity: 0.5;
+}
+.section-six {
+  padding: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-six h2 {
+  font-weight: 400;
+}
+.section-six .item {
+  margin: 15px 0;
+  opacity: 0.7;
+}
+.address {
+  margin-top: 40px;
+  opacity: 0.7;
+  line-height: 25px;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+.social {
+  margin-top: 20px;
+  filter: grayscale(1);
+}
+.social img {
+  margin: 0 10px;
+}
+.combo-input input {
+  background-color: #F6F6F6;
+  border-color: #B8B8BA;
+  color: #000;
 }
